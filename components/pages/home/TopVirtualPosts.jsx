@@ -107,25 +107,22 @@ const TopVirtualPosts = () => {
               <MessageCircle className="w-3 h-3 sm:w-4 sm:h-4" />
               <span>Comments: {post.comments_count}</span>
             </div>
+            {post.post_url && (
+              <a
+                href={post.post_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-blue-600 underline ml-2"
+              >
+                Source Link
+              </a>
+            )}
           </div>
           <Progress
             value={post.reaction_count}
             className="w-full sm:w-20 h-2"
           />
         </div>
-        {/* Source Link */}
-        {post.post_url && (
-          <div className="mt-1">
-            <a
-              href={post.post_url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs text-blue-600 underline"
-            >
-              Source Link
-            </a>
-          </div>
-        )}
       </div>
     ));
   }
