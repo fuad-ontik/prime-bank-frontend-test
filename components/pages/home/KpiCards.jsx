@@ -10,6 +10,7 @@ import {
   MessageSquare,
   Terminal,
   TrendingUp,
+  Globe,
 } from "lucide-react";
 import { useEffect, useState } from "react";
 
@@ -85,7 +86,7 @@ const KpiCards = () => {
           </AlertDescription>
         </Alert>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-6">
           <Card className="relative overflow-hidden border-0 shadow-lg bg-white/90 dark:bg-slate-800/90 backdrop-blur-sm hover:shadow-xl transition-all duration-300">
             <CardHeader className="pb-2">
               <div className="flex items-center justify-between">
@@ -207,7 +208,7 @@ const KpiCards = () => {
             <CardHeader className="pb-2">
               <div className="flex items-center justify-between">
                 <div className="p-2 sm:p-3 bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/30 dark:to-blue-800/30 rounded-xl border border-blue-200/50 dark:border-blue-700/50">
-                  <Activity className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 dark:text-blue-400" />
+                  <Globe className="w-4 h-4 sm:w-5 sm:h-5 text-blue-600 dark:text-blue-400" />
                 </div>
               </div>
             </CardHeader>
