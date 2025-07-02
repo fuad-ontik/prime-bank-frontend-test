@@ -45,7 +45,7 @@ export default function Dashboard() {
           )}
 
           <div className="p-3 sm:p-4 lg:p-6 overflow-auto">
-            <div className="max-w-7xl mx-auto space-y-4 sm:space-y-6 lg:space-y-8">
+            <div className="max-w-screen-2xl mx-auto space-y-4 sm:space-y-6 lg:space-y-8">
               <Header />
 
               <KpiCards />
