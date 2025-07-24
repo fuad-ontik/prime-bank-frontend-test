@@ -235,7 +235,7 @@ const KpiCards = () => {
                       rel="noopener noreferrer"
                       className="underline"
                     >
-                      Bank Account User In Bangladesh (BAUB)BD
+                      Bank Account User In Bangladesh
                     </a>
                   </li>
                 </ul>

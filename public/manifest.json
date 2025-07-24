@@ -1,0 +1,23 @@
+{
+  "name": "Prime Connect - Customer Feedback Analytics",
+  "short_name": "Prime Connect",
+  "description": "Advanced customer feedback analytics platform",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e40af",
+  "icons": [
+    {
+      "src": "/prime_bank_icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/prime_bank_icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}

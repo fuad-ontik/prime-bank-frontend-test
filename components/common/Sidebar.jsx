@@ -93,9 +93,11 @@ const Sidebar = ({ activeSection, onSectionChange, isOpen, onToggle }) => {
         `}
       >
         <div className="p-4 border-b border-slate-200 dark:border-slate-700 flex items-center justify-between">
-          <h2 className="text-lg font-semibold text-slate-900 dark:text-white">
-            Navigation
-          </h2>
+          <img 
+            src="/prime_bank_icon_with_name.png" 
+            alt="Prime Bank" 
+            className="h-15 w-auto"
+          />
           <Button
             onClick={handleToggle}
             variant="ghost"
